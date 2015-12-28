@@ -9,4 +9,7 @@ addons:
 cache:
   - pip
   - apt
+install:
+  # Update pip and setuptools to the latest version.
+  - pip install -U pip setuptools
 script: python setup.py test

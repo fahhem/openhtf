@@ -32,9 +32,9 @@ OpenHTF's dependencies into it using pip (steps 5-7 below).
 To set up an OpenHTF dev environment, follow the steps below.
 
 ### Linux
-0. Clone into the git repo.
+0. Clone in the git repo.
 1. `sudo apt-get install python-pip swig libssl-dev python-dev`
-2. `sudo pip install --upgrade pip`
+2. `sudo pip install -U pip setuptools`
 3. `sudo pip install virtualenv`
 4. `(cd to openhtf directory)`
 5. `virtualenv venv`
